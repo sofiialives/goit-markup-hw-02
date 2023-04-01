@@ -58,7 +58,7 @@ body{
     color: var(--hover-cl);
 }
 
-.header-address-list{
+.header-main-address{
     font-style: normal;
 }
 
@@ -100,13 +100,15 @@ body{
     cursor: pointer;
 }
 
-.dscr-name{
+.dscr-section-name{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--secondary-txt-cl);
 }
 
-.dscr-text{
+.dscr-section-text{
     color: var(--main-txt-cl);
 }
 
@@ -114,6 +116,9 @@ body{
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--secondary-txt-cl);
 }
 
 .main-team{
