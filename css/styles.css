@@ -109,6 +109,9 @@ body{
 }
 
 .dscr-section-text{
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: var(--main-txt-cl);
 }
 
@@ -118,6 +121,7 @@ body{
     line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
+    letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
 }
 
@@ -125,7 +129,7 @@ body{
     background: var(--section-cl);
 }
 
-.card{
+.main-card-team{
     background: var(--background-cl);
 }
 
