@@ -160,7 +160,3 @@ body{
     color: var(--background-cl);
     cursor: pointer;
 }
-
-.cards{
-    background: var(--cards-cl);
-}
