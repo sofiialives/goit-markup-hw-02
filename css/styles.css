@@ -3,8 +3,8 @@
     --primary-font: Roboto, sans-serif;
     --secondary-font: Raleway, sans-serif;
     /* Colors */
-    --main-txt-cl: #2E2F42;
-    --secondary-txt-cl: #434455;
+    --main-txt-cl: #434455;
+    --secondary-txt-cl: #2E2F42;
     --background-cl: #fff;
     --accent-cl: #4D5AE5;
     --hover-cl: #404bbf;
@@ -34,23 +34,23 @@ body{
     font-family: var(--secondary-font);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1,167;
+    line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--accent-cl);
 }
 
 .header-logo-text{
-    color: var(--main-txt-cl)
+    color: var(--secondary-txt-cl)
 }
 
 .header-nav{
     font-weight: 500;
-    color: var(--main-txt-cl);
+    color: var(--secondary-txt-cl);
 }
 
 .header-link{
-    color: var(--main-txt-cl);
+    color: var(--secondary-txt-cl);
 }
 
 .header-link:hover,
@@ -59,7 +59,7 @@ body{
 }
 
 .header-address-link{
-    color: var(--secondary-txt-cl);
+    color: var(--main-txt-cl);
 }
 
 .header-address-link:hover,
@@ -68,18 +68,22 @@ body{
 }
 
 .main-banner{
-    background-color: var(--main-txt-cl);
+    background-color: var(--secondary-txt-cl);
 }
 
 .banner-text{
     font-weight: 700;
     font-size: 56px;
-    line-height: 1,07;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
     color: var(--background-cl);
 }
 
 .banner-button{
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background: var(--accent-cl);
     color: var(--background-cl);
@@ -98,7 +102,7 @@ body{
 }
 
 .dscr-text{
-    color: var(--secondary-txt-cl);
+    color: var(--main-txt-cl);
 }
 
 .work-name{
@@ -116,11 +120,11 @@ body{
 }
 
 .footer{
-    background: var(--main-txt-cl);
+    background: var(--secondary-txt-cl);
 }
 
 .footer-logo-text{
-    color: var(--background-cl);
+    color: var(--section-cl);
 }
 
 .footer-text{
@@ -129,6 +133,8 @@ body{
 
 .main-button{
     font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     background: var(--section-cl);
     color: var(--accent-cl);
