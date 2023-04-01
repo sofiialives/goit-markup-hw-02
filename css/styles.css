@@ -58,6 +58,10 @@ body{
     color: var(--hover-cl);
 }
 
+.header-address-list{
+    font-style: normal;
+}
+
 .header-address-link{
     color: var(--main-txt-cl);
 }
@@ -81,6 +85,7 @@ body{
 }
 
 .banner-button{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -132,6 +137,7 @@ body{
 }
 
 .main-button{
+    font-family: "Roboto", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
